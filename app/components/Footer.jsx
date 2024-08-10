@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-10 rtl gap-3">
           <div className="col-span-10 lg:col-span-3">
             <img
-              src="/assets/Layer 2.svg"
+              src="/online-education/assets/Layer 2.svg"
               alt="home"
               className="block w-10 h-9 lg:h-12"
             />
@@ -129,7 +129,7 @@ export default function Footer() {
             <ul className="grid gap-2 my-2 text-3xs lg:text-xxs">
               <li className="flex gap-1 items-center">
                 <img
-                  src="/assets/emailIcon.svg"
+                  src="/online-education/assets/emailIcon.svg"
                   alt="email"
                   className="self-start w-3 lg:w-7"
                 />
@@ -137,7 +137,7 @@ export default function Footer() {
               </li>
               <li className="flex gap-1 items-center">
                 <img
-                  src="/assets/phoneIcon.svg"
+                  src="/online-education/assets/phoneIcon.svg"
                   alt="phone"
                   className="self-start w-3 lg:w-7"
                 />
@@ -145,7 +145,7 @@ export default function Footer() {
               </li>
               <li className="flex gap-1 items-center">
                 <img
-                  src="/assets/locationIcon.svg"
+                  src="/online-education/assets/locationIcon.svg"
                   alt="location"
                   className="self-start w-3 lg:w-7"
                 />
@@ -159,28 +159,48 @@ export default function Footer() {
         </div>
         <div className="grid lg:flex gap-5 my-5 rtl justify-center lg:justify-between w-full">
           <div className="grid grid-cols-2 lg:flex gap-3">
-            <img src="/assets/connections/gaj.svg" alt="gaj" className="w-20" />
             <img
-              src="/assets/connections/gajMarket.svg"
+              src="/online-education/assets/connections/gaj.svg"
+              alt="gaj"
+              className="w-20"
+            />
+            <img
+              src="/online-education/assets/connections/gajMarket.svg"
               alt="gaj-market"
               className="w-20"
             />
             <img
-              src="/assets/connections/drIq.svg"
+              src="/online-education/assets/connections/drIq.svg"
               alt="Doctor-IQ"
               className="w-20"
             />
             <img
-              src="/assets/connections/gajMag.svg"
+              src="/online-education/assets/connections/gajMag.svg"
               alt="Gaj-mag"
               className="w-20"
             />
           </div>
           <div className="grid grid-cols-2 lg:flex gap-3">
-            <img src="/assets/connections/1.svg" alt="gaj" className="w-20" />
-            <img src="/assets/connections/2.svg" alt="gaj" className="w-20" />
-            <img src="/assets/connections/e.svg" alt="gaj" className="w-20" />
-            <img src="/assets/connections/4.svg" alt="gaj" className="w-20" />
+            <img
+              src="/online-education/assets/connections/1.svg"
+              alt="gaj"
+              className="w-20"
+            />
+            <img
+              src="/online-education/assets/connections/2.svg"
+              alt="gaj"
+              className="w-20"
+            />
+            <img
+              src="/online-education/assets/connections/e.svg"
+              alt="gaj"
+              className="w-20"
+            />
+            <img
+              src="/online-education/assets/connections/4.svg"
+              alt="gaj"
+              className="w-20"
+            />
           </div>
         </div>
       </div>

@@ -11,7 +11,7 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/categories/technology.png"
+              src="/online-education/assets/categories/technology.png"
               alt="lesson"
               className="object-cover"
             />
@@ -25,7 +25,7 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/categories/lesson.png"
+              src="/online-education/assets/categories/lesson.png"
               alt="lesson"
               className="object-cover"
             />
@@ -39,7 +39,7 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/categories/talent.png"
+              src="/online-education/assets/categories/talent.png"
               alt="lesson"
               className="object-cover"
             />
@@ -53,7 +53,7 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/categories/art.png"
+              src="/online-education/assets/categories/art.png"
               alt="lesson"
               className="object-cover"
             />
@@ -67,7 +67,7 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/categories/sport.png"
+              src="/online-education/assets/categories/sport.png"
               alt="lesson"
               className="object-cover"
             />
@@ -81,7 +81,7 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/categories/language.png"
+              src="/online-education/assets/categories/language.png"
               alt="lesson"
               className="object-cover"
             />
@@ -97,14 +97,14 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/lessons/pejman.png"
+              src="/online-education/assets/lessons/pejman.png"
               alt="pejman"
               className="object-cover max-w-full"
             />
           </div>
           <div className="relative text-center text-sm font-bold my-2">
             <img
-              src="/assets/discountIcon.svg"
+              src="/online-education/assets/discountIcon.svg"
               alt="discount"
               className="w-5 absolute top-0 left-2"
             />
@@ -123,14 +123,14 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/lessons/arman.png"
+              src="/online-education/assets/lessons/arman.png"
               alt="pejman"
               className="object-cover max-w-full"
             />
           </div>
           <div className="relative text-center text-sm font-bold my-2">
             <img
-              src="/assets/discountIcon.svg"
+              src="/online-education/assets/discountIcon.svg"
               alt="discount"
               className="w-5 absolute top-0 left-2"
             />
@@ -149,7 +149,7 @@ export default function Categories({ className }) {
           <div className="relative">
             <div className="w-full h-full absolute top-0 z-10 bg-fillShadow opacity-40"></div>
             <img
-              src="/assets/lessons/farid.png"
+              src="/online-education/assets/lessons/farid.png"
               alt="pejman"
               className="object-cover max-w-full"
             />

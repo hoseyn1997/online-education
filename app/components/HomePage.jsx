@@ -11,7 +11,7 @@ export default function HomePage() {
       <NavBar />
       <div className="relative">
         <img
-          src="/assets/Homebg.webp"
+          src="/online-education/assets/Homebg.webp"
           alt="learn-here"
           className="w-full object-cover h-[350px] lg:h-[600px]"
         />

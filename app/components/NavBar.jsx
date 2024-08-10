@@ -51,7 +51,7 @@ export default function NavBar() {
             سوالات متداول
           </li>
           <li>
-            <button class="bg-primary text-white px-5 py-2 rounded-lg my-1.5 mx-3">
+            <button className="bg-primary text-white px-5 py-2 rounded-lg my-1.5 mx-3">
               معلم خصوصی شو
             </button>
           </li>
@@ -69,17 +69,17 @@ export default function NavBar() {
         >
           <img
             id="mobile-mode-hambergerIcon"
-            src="/assets/hambergerIcon.svg"
+            src="/online-education/assets/hambergerIcon.svg"
             alt="menue"
             className="block lg:hidden w-6 h-6 lg:w-10 lg:h-12"
           />
           <img
-            src="/assets/Layer 2.svg"
+            src="/online-education/assets/Layer 2.svg"
             alt="home"
             className="block w-10 h-9 lg:h-12"
           />
           <img
-            src="/assets/logOut.svg"
+            src="/online-education/assets/logOut.svg"
             alt="menue"
             className="block lg:hidden w-6 h-6 lg:w-10 lg:h-12"
           />

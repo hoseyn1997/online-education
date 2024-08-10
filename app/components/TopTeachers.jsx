@@ -7,7 +7,7 @@ let topTeachers = [
     id: "1",
     name: "مینا جعفری زاده همدانی",
     expertise: "زبان انگلیسی",
-    img: "/assets/topTeachers/mina.png",
+    img: "/online-education/assets/topTeachers/mina.png",
     score: "4.2",
     total: "586",
   },
@@ -15,7 +15,7 @@ let topTeachers = [
     id: "2",
     name: "بهرام موسوی راد",
     expertise: "ادبیات فراسی",
-    img: "/assets/topTeachers/bahram.png",
+    img: "/online-education/assets/topTeachers/bahram.png",
     score: "4.2",
     total: "586",
   },
@@ -23,7 +23,7 @@ let topTeachers = [
     id: "3",
     name: "علیرضا محمدیان",
     expertise: "زبان آلمانی",
-    img: "/assets/topTeachers/alireza.png",
+    img: "/online-education/assets/topTeachers/alireza.png",
     score: "4.2",
     total: "586",
   },
@@ -31,7 +31,7 @@ let topTeachers = [
     id: "4",
     name: "پژمان نصیری",
     expertise: "بسکتبال",
-    img: "/assets/topTeachers/pejman.png",
+    img: "/online-education/assets/topTeachers/pejman.png",
     score: "4.2",
     total: "586",
   },
@@ -167,7 +167,7 @@ export default function TopTeachers() {
               </svg>
               <span>{teacher.score}</span>
               <img
-                src="/assets/vertical-devider.svg"
+                src="/online-education/assets/vertical-devider.svg"
                 alt="vertical-devider"
                 className="hidden lg:grid w-[1px]"
               />

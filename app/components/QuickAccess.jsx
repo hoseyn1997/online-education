@@ -1,10 +1,26 @@
 import Link from "next/link";
 
 let quickAcceses = [
-  { name: "برنامه نویسی", img: "/assets/lessons/programming.png", id: "1" },
-  { name: "شیرینی پزی", img: "/assets/lessons/baking.png", id: "2" },
-  { name: "گویندگی", img: "/assets/lessons/talking.png", id: "3" },
-  { name: "نقاشی سیاه قلم", img: "/assets/lessons/painting.png", id: "4" },
+  {
+    name: "برنامه نویسی",
+    img: "/online-education/assets/lessons/programming.png",
+    id: "1",
+  },
+  {
+    name: "شیرینی پزی",
+    img: "/online-education/assets/lessons/baking.png",
+    id: "2",
+  },
+  {
+    name: "گویندگی",
+    img: "/online-education/assets/lessons/talking.png",
+    id: "3",
+  },
+  {
+    name: "نقاشی سیاه قلم",
+    img: "/online-education/assets/lessons/painting.png",
+    id: "4",
+  },
 ];
 export default function QuickAccess() {
   return (

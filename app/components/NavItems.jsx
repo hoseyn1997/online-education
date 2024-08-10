@@ -28,31 +28,47 @@ export default function NavItems() {
         <ul className="grid col-span-2 shadow-[0.3px_0px_1px_0px_#9689A8]">
           <li className="flex h-14 gap-2 items-center justify-start pr-3 hover:bg-background bg-background cursor-pointer">
             <img
-              src="/assets/lessonIcon.svg"
+              src="/online-education/assets/lessonIcon.svg"
               alt="درسی"
               className="w-5 text-dark font-bold"
             />
             <span className="text-dark font-bold">درسی</span>
           </li>
           <li className="flex h-14 gap-2 items-center justify-start pr-3 hover:bg-background cursor-pointer">
-            <img src="/assets/languageIcon.svg" alt="زبان" className="w-5" />
+            <img
+              src="/online-education/assets/languageIcon.svg"
+              alt="زبان"
+              className="w-5"
+            />
             <span>زبان</span>
           </li>
           <li className="flex h-14 gap-2 items-center justify-start pr-3 hover:bg-background cursor-pointer">
-            <img src="/assets/artIcon.svg" alt="هنر" className="w-5" />
+            <img
+              src="/online-education/assets/artIcon.svg"
+              alt="هنر"
+              className="w-5"
+            />
             <span>هنر</span>
           </li>
           <li className="flex h-14 gap-2 items-center justify-start pr-3 hover:bg-background cursor-pointer">
-            <img src="/assets/exerciseIcon.svg" alt="ورزش" className="w-5" />
+            <img
+              src="/online-education/assets/exerciseIcon.svg"
+              alt="ورزش"
+              className="w-5"
+            />
             <span>ورزش</span>
           </li>
           <li className="flex h-14 gap-2 items-center justify-start pr-3 hover:bg-background cursor-pointer">
-            <img src="/assets/talentsIcon.svg" alt="مهارت" className="w-5" />
+            <img
+              src="/online-education/assets/talentsIcon.svg"
+              alt="مهارت"
+              className="w-5"
+            />
             <span>مهارت</span>
           </li>
           <li className="flex h-14 gap-2 items-center justify-start pr-3 hover:bg-background cursor-pointer">
             <img
-              src="/assets/technologyIcon.svg"
+              src="/online-education/assets/technologyIcon.svg"
               alt="تکنولوژی"
               className="w-5"
             />
@@ -68,7 +84,7 @@ export default function NavItems() {
               >
                 <span>{item.content}</span>
                 <Image
-                  src="/assets/expand_more_24px.svg"
+                  src="/online-education/assets/expand_more_24px.svg"
                   alt="expand more"
                   className="justify-self-end"
                   width={20}
