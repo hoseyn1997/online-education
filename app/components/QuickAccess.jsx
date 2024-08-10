@@ -14,7 +14,7 @@ export default function QuickAccess() {
     >
       {quickAcceses.map((access) => (
         <Link
-          id={access.id}
+          key={access.id}
           href="#"
           className={`bg-white rounded-lg grid overflow-hidden shadow-lg w-1/6 min-w-32 self-start ${
             access.id % 2 !== 0 ? "lg:self-start" : "lg:self-end"

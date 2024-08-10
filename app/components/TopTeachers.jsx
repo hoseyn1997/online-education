@@ -106,7 +106,7 @@ export default function TopTeachers() {
       >
         {topTeachers.map((teacher) => (
           <div
-            id={teacher.id}
+            key={teacher.id}
             className="grid gap-y-1 lg:gap-y-5 bg-white rounded-xl p-0 py-3 min-w-[45%] lg:min-w-[25%] 
               relative shadow-xl"
           >

@@ -63,7 +63,7 @@ export default function NavItems() {
           <div className="flex flex-col w-fit flex-wrap max-h-96 gap-x-5 text-xs">
             {nav_list.map((item) => (
               <li
-                id={item.idx.toString()}
+                key={item.idx.toString()}
                 className="grid grid-cols-2 py-[1.1rem] px-3 items-center rounded cursor-default"
               >
                 <span>{item.content}</span>

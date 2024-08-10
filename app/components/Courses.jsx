@@ -47,7 +47,7 @@ export default function Courses() {
       gap-3 lg:gap-14 pt-3 pb-10 px-5 pr-8 lg:pr-5"
       >
         {courses.map((course) => (
-          <Course course={course} />
+          <Course key={course.id} course={course} />
         ))}
         <div className="hidden lg:flex flex-col justify-center items-center">
           <h4
