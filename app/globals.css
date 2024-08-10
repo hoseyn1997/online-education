@@ -1,0 +1,44 @@
+@font-face {
+  font-family: ShabnamFD;
+  src: url("/Farsi-Digits/Shabnam-FD.ttf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .discount {
+    @apply after:content-[''] after:absolute after:top-[6px] after:-right-2 after:min-w-24 after:bg-red-400 after:min-h-[2px] after:-rotate-[5deg];
+  }
+  .home-container {
+    @apply max-w-screen-fullSize lg:w-3/4 mx-auto;
+  }
+}
+
+.rtl {
+  direction: rtl;
+}
+
+@media (min-width: 1024px) {
+  .ltr {
+    direction: ltr;
+  }
+}
+
+.limheight {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3; /*3 in those rules is just placeholder -- can be anything*/
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scroll-bar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
